@@ -1,0 +1,256 @@
+.col-no{
+	height:500;
+	width:100;
+	background-color:'grey';
+}
+.nav-container{
+	margin:30px 50px 100px;
+}
+
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+.VideoImage
+{
+	height:350px;
+	width:100%;
+	margin-right:50px;
+	box-shadow: -21px -15px 11px -5px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.logoImg{
+	vertical-align:middle;
+	height:50px;
+	width:10%;
+	margin-right:100px;
+	
+}
+.logoImg2{
+	height:50px;
+	width:20%;
+	margin-bottom:30px;
+	margin-top:30px;
+	
+}
+h1{
+	font-size:50px;
+}
+
+p{
+	color:gray;
+	font-size:20px;
+}
+.nav-item{
+	margin:5px;
+}
+.searchIcon{
+	width:20px;
+	height:20px;
+	margin:8px;
+}
+.button {
+  background-color: gray; 
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+  
+}
+.button:hover {
+  background-color:#737373;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.heading1{
+	margin:150px 50px 40px;
+	text-align:center;
+}
+
+.heading2{
+	margin:50px 0px 10px;
+	padding-top:50px;
+	background-color:#F7F7F7;
+}
+
+.heading3{
+	margin:150px 0px 10px;
+	padding-top:50px;
+	padding-bottom:50px;
+	background-color:orange;
+	border-radius:5px;
+	box-shadow: -21px -15px 11px -5px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+	
+
+.card{
+	margin:50px;
+	margin-top:50px;
+	padding:50px;
+	box-shadow: -21px -15px 11px -5px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.imageCard{
+	margin-top:30px;
+	border-radius:5px;
+	box-shadow: -21px -15px 11px -5px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.imageCard2{
+	margin:70px 170px;
+	border-radius:5px;
+}
+
+
+
+.container-display{
+  width:900px;
+  margin:100px auto;
+}
+
+.column-card-display {
+  float: left;
+  width: 33.33%;
+  padding: 0 40px;
+}
+
+.row-card-display {margin: 0 -150px;}
+
+.row-card-display:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 700px) {
+  
+ .container-display{
+  width: 100%;
+}
+  
+  .column-card-display {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.card-display {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+  border-radius:10px;
+  cursor:pointer;
+}
+.card-display .profile{
+   border-radius:10px;
+   transition: 0.2s;
+}
+.card-display:hover .profile{
+  transform:scale(1.4);
+  border-top-right-radius:50px;
+  border-top-left-radius:50px;
+}
+
+.card-display .content{
+  width:100%;
+  height:100%;
+  position:relative;
+  overflow:hidden;
+}
+.card-display .content .back{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-color: #fff; /* f1f1f1e6 */
+  transition:1s;
+  z-index:1;
+  padding:10px;
+}
+
+.from-left{
+  top:0;
+  left:-100%;
+}
+.card-display:hover .content .from-left {
+   left:0%;
+}
+
+.from-bottom{
+  top:90%;
+  left:0;
+}
+.card-display:hover .content .from-bottom {
+   top:10%;
+}
+
+.from-right{
+  top:0%;
+  right:-100%;
+}
+.card-display:hover .content .from-right {
+   right:0;
+}
+
+/*.card-display .content .back .card-display-heading{
+  font-size:15px;
+  
+}*/
+.card-display .content .back .tem-img{
+  border-radius:100%;
+}
+
+.card-display .content .back .des{
+  font-size:15px;
+  padding:20px 0px;
+}
+.card-display .content .back .social-icon{
+  list-style:none;
+  margin:0px;
+  padding:0px;
+}
+.card-display .content .back .social-icon {
+  display:inline-block;
+}
+
+.card-display .content .back .social-icon  a{
+  display:block;
+  background:#333;
+  color:#fff;
+  width:40px;
+  height:40px;
+  text-align:center;
+  line-height:40px;
+  border-radius:100%;
+}
+a{
+  text-decoration:none;
+  color:#0095A9;
+}
+.social-icon{
+	height:20px;
+	width:20px;
+	margin:10px;
+}
+.footer{
+	margin-bottom:50px;
+}
+
+.icon-group{
+	margin-top:30px;
+}
+
